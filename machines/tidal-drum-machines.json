@@ -1,4 +1,5 @@
 {
+  "_base": "https://raw.githubusercontent.com/Mittans/tidal-drum-machines/main/machines/",
   "AJKPercusyn_bd": ["AJKPercusyn/ajkpercusyn-bd/Bassdrum.wav"],
   "AJKPercusyn_cb": ["AJKPercusyn/ajkpercusyn-cb/Cowbell.wav", "AJKPercusyn/ajkpercusyn-cb/Snarepop.wav"],
   "AJKPercusyn_ht": ["AJKPercusyn/ajkpercusyn-ht/Tom.wav"],
