@@ -1,3 +1,24 @@
+## Raison d'etre
+
+When running the CodeMirror REPL Starter code from codeberg.org/uzu/strudel/src/branch/main/examples/codemirror-repl
+I found it was broken because the drum machine sample list that lives on Strude.cc is not available to your local instance. 
+You can't fetch them from Strudel.cc because you're running a localhost server, and their CORS config rejects your requests.
+The actual tidal-drum-machines drum machines don't have a drum-machines.json for your REPL to understand the samples available and their folder structure.
+
+## Checking if you need to use this repo
+
+Try adding `s("bd").bank("RolandTR808")` and clicking play. Do you get any sound? If yes, you're fine, don't need this.
+
+## Usage for your Strudel project
+
+Just add:
+
+`samples('https://raw.githubusercontent.com/Mittans/tidal-drum-machines/main/machines/tidal-drum-machines.json')`
+
+To your Strudel REPL. Now you can `s("bd").bank("RolandTR808")` all day.
+
+Original README.md follows.
+
 # tidal-drum-machines
  A huge collection of Drum Machines for SuperDirt and Tidal
 
